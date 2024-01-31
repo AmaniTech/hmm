@@ -219,7 +219,8 @@ img {
   align-self: center;
 }
 .home-title {
-  font-size: var(--big-font-size);
+  /* font-size: var(--big-font-size); */
+  font-size: 50px;
   margin-bottom: var(--mb-5);
 }
 .home-title-color {
