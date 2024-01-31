@@ -73,6 +73,8 @@ sr.reveal(".about-img", {});
 sr.reveal(".about-subtitle", { delay: 400 });
 sr.reveal(".about-text", { delay: 400 });
 
+sr.reveal(".education-container", {});
+
 /*SCROLL SKILLS*/
 sr.reveal(".skills-subtitle", {});
 sr.reveal(".skills-text", {});
