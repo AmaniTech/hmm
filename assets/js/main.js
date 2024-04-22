@@ -72,6 +72,7 @@ sr.reveal(".home-social-icon", { interval: 200 });
 sr.reveal(".about-img", {});
 sr.reveal(".about-subtitle", { delay: 400 });
 sr.reveal(".about-text", { delay: 400 });
+sr.reveal(".way", { delay: 400 });
 
 sr.reveal(".education-container", {});
 
