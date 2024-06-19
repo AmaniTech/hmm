@@ -43,8 +43,7 @@
             <a href="#contact" class="nav-link contact">Contact</a>
           </li>
           <li class="nav-item">
-            <a href="#" onclick="myFunction()"> <img src="./assets/img/sumoon.png" alt="" height="20px" width="20px"
-                style="background-color: transparent;"> </a>
+            <a href="#" onclick="myFunction()"> <img src="./assets/img/sumoon.png" alt="" height="20px" width="20px" style="background-color: transparent;"> </a>
           </li>
         </ul>
       </div>
@@ -64,8 +63,7 @@
           <span id="jobTitle">Web Developer</span>
         </h2>
 
-        <a href="./assets/Qomar_CV.pdf" target="_blank"
-          class="button">Resume</a>
+        <a href="./assets/Qomar_CV.pdf" target="_blank" class="button">Resume</a>
 
       </div>
 
@@ -73,8 +71,7 @@
         <!-- <a href="#" target="_blank" class="home-social-icon"><i
             class="bx bxl-linkedin"></i>
         </a> -->
-        <a href="https://github.com/AmaniTech" target="_blank" class="home-social-icon"><i
-            class="bx bxl-github"></i></a>
+        <a href="https://github.com/AmaniTech" target="_blank" class="home-social-icon"><i class="bx bxl-github"></i></a>
       </div>
 
       <div class="home-img">
@@ -94,7 +91,7 @@
         <div style="text-align: center">
           <h2 class="about-subtitle">Qomarus Zamani</h2>
           <p class="about-text">
-           Halo, saya Qomarus Zamani, Web Developer inovatif berusia 23 tahun dengan gelar Sarjana Teknik Informatika dari Universitas Merdeka Pasuruan. Saya memiliki pengalaman lebih dari 2 tahun sebagai freelancer, khususnya dalam mengembangkan aplikasi berbasis web dan API. Saya biasanya menggunakan kerangka kerja seperti Laravel, Codeigniter, dan ExpressJS sebagai alat pengembangan utama saya, dan saya terbuka untuk mempelajari dan menjelajahi alat pengembangan lainnya. Saya memiliki rasa ingin tahu yang kuat tentang dunia TI dan sangat antusias menerapkan pengetahuan luas saya sebagai Pengembang Web untuk menciptakan produk berbasis web yang inovatif. Mari berkolaborasi dan wujudkan ide!
+            Halo, saya Qomarus Zamani, Web Developer inovatif berusia 23 tahun dengan gelar Sarjana Teknik Informatika dari Universitas Merdeka Pasuruan. Saya memiliki pengalaman lebih dari 2 tahun sebagai freelancer, khususnya dalam mengembangkan aplikasi berbasis web dan API. Saya biasanya menggunakan kerangka kerja seperti Laravel, Codeigniter, dan ExpressJS sebagai alat pengembangan utama saya, dan saya terbuka untuk mempelajari dan menjelajahi alat pengembangan lainnya. Saya memiliki rasa ingin tahu yang kuat tentang dunia TI dan sangat antusias menerapkan pengetahuan luas saya sebagai Pengembang Web untuk menciptakan produk berbasis web yang inovatif. Mari berkolaborasi dan wujudkan ide!
           </p>
           <br />
 
@@ -134,45 +131,45 @@
       </div>
     </section>
 
-      <!--===== SKILLS =====-->
-      <section class="skills section" id="skills">
-        <h2 class="section-title">Skills</h2>
+    <!--===== SKILLS =====-->
+    <section class="skills section" id="skills">
+      <h2 class="section-title">Skills</h2>
 
-        <div class="skills-container bd-grid">
-          <div>
-            <h2 class="skills-subtitle">Front-end Skills</h2>
-            <div class="skills-data">
-              <div class="skills-names">
-                <i class="bx bxl-html5 skills-icon"></i>
-                <span class="skills-name">HTML</span>
-              </div>
-              <!-- <div class="skills-bar skills-html"></div> 
+      <div class="skills-container bd-grid">
+        <div>
+          <h2 class="skills-subtitle">Front-end Skills</h2>
+          <div class="skills-data">
+            <div class="skills-names">
+              <i class="bx bxl-html5 skills-icon"></i>
+              <span class="skills-name">HTML</span>
+            </div>
+            <!-- <div class="skills-bar skills-html"></div> 
              <div>
                 <span class="skills-percentage">75%</span>
               </div>  -->
+          </div>
+          <div class="skills-data">
+            <div class="skills-names">
+              <i class="bx bxl-css3 skills-icon"></i>
+              <span class="skills-name">CSS</span>
             </div>
-            <div class="skills-data">
-              <div class="skills-names">
-                <i class="bx bxl-css3 skills-icon"></i>
-                <span class="skills-name">CSS</span>
-              </div>
-              <!-- <div class="skills-bar skills-css"></div>  -->
-              <!-- <div>
+            <!-- <div class="skills-bar skills-css"></div>  -->
+            <!-- <div>
                 <span class="skills-percentage">70%</span>
               </div>  -->
+          </div>
+          <div class="skills-data">
+            <div class="skills-names">
+              <i class="bx bxl-javascript skills-icon"></i>
+              <span class="skills-name">JavaScript</span>
             </div>
-            <div class="skills-data">
-              <div class="skills-names">
-                <i class="bx bxl-javascript skills-icon"></i>
-                <span class="skills-name">JavaScript</span>
-              </div>
-              <!-- <div class="skills-bar skills-css"></div>  -->
-              <div>
-                <!-- <span class="skills-percentage">70%</span> -->
-              </div>
+            <!-- <div class="skills-bar skills-css"></div>  -->
+            <div>
+              <!-- <span class="skills-percentage">70%</span> -->
+            </div>
 
-            </div>
-            <!-- <div class="skills-data">
+          </div>
+          <!-- <div class="skills-data">
               <div class="skills-names">
                 <i class="bx bxl-react skills-icon"></i>
                 <span class="skills-name">React</span>
@@ -201,68 +198,68 @@
                 <span class="skills-name">TypeScript</span>
               </div>
             </div> -->
-          </div>
-          <div>
-            <h2 class="skills-subtitle">Back-end Skills</h2>
-            <div class="skills-data">
-              <div class="skills-names">
-               <img class="skills-icon" src="./assets/img/laravel.png" alt="" />
-                <span class="skills-name">Laravel</span>
-              </div>
-              <!-- <div class="skills-bar skills-css"></div>  -->
-              <div>
-                <!-- <span class="skills-percentage">70%</span> -->
-              </div>
+        </div>
+        <div>
+          <h2 class="skills-subtitle">Back-end Skills</h2>
+          <div class="skills-data">
+            <div class="skills-names">
+              <img class="skills-icon" src="./assets/img/laravel.png" alt="" />
+              <span class="skills-name">Laravel</span>
             </div>
-            <div class="skills-data">
-              <div class="skills-names">
-               <img class="skills-icon" src="./assets/img/ci.png" alt="" />
-                <span class="skills-name">Codeigniter</span>
-              </div>
-              <!-- <div class="skills-bar skills-css"></div>  -->
-              <div>
-                <!-- <span class="skills-percentage">70%</span> -->
-              </div>
-            </div>
-            <div class="skills-data">
-              <div class="skills-names">
-                <img class="skills-icon" src="./assets/img/express.png" alt="" />
-                <span class="skills-name">Express.js</span>
-              </div>
-              <!-- <div class="skills-bar skills-css"></div>  -->
-              <div>
-                <!-- <span class="skills-percentage">70%</span> -->
-              </div>
-            </div>
-
-            <div class="skills-data">
-              <div class="skills-names">
-                <i class="bx bxl-nodejs skills-icon"></i>
-                <span class="skills-name">Node.js</span>
-              </div>
-              <!-- <div class="skills-bar skills-css"></div> -->
-              <div>
-                <!-- <span class="skills-percentage">70%</span> -->
-              </div>
-            </div>
-
-            
+            <!-- <div class="skills-bar skills-css"></div>  -->
             <div>
-              <!-- <h2 class="skills-subtitle">TOOLS</h2> -->
-              <div class="skills-data">
-                <div class="skills-names">
-                  <img class="skills-icon" src="./assets/img/github.svg" alt="" />
-                  <span class="skills-name">Github</span>
-                </div>
-              </div>
-              <div class="skills-data">
-                <div class="skills-names">
-                  <img class="skills-icon" src="./assets/img/git.png" alt="" />
-                  <span class="skills-name">Git</span>
-                </div>
+              <!-- <span class="skills-percentage">70%</span> -->
+            </div>
+          </div>
+          <div class="skills-data">
+            <div class="skills-names">
+              <img class="skills-icon" src="./assets/img/ci.png" alt="" />
+              <span class="skills-name">Codeigniter</span>
+            </div>
+            <!-- <div class="skills-bar skills-css"></div>  -->
+            <div>
+              <!-- <span class="skills-percentage">70%</span> -->
+            </div>
+          </div>
+          <div class="skills-data">
+            <div class="skills-names">
+              <img class="skills-icon" src="./assets/img/express.png" alt="" />
+              <span class="skills-name">Express.js</span>
+            </div>
+            <!-- <div class="skills-bar skills-css"></div>  -->
+            <div>
+              <!-- <span class="skills-percentage">70%</span> -->
+            </div>
+          </div>
 
+          <div class="skills-data">
+            <div class="skills-names">
+              <i class="bx bxl-nodejs skills-icon"></i>
+              <span class="skills-name">Node.js</span>
+            </div>
+            <!-- <div class="skills-bar skills-css"></div> -->
+            <div>
+              <!-- <span class="skills-percentage">70%</span> -->
+            </div>
+          </div>
+
+
+          <div>
+            <!-- <h2 class="skills-subtitle">TOOLS</h2> -->
+            <div class="skills-data">
+              <div class="skills-names">
+                <img class="skills-icon" src="./assets/img/github.svg" alt="" />
+                <span class="skills-name">Github</span>
               </div>
-              <!-- <div class="skills-data">
+            </div>
+            <div class="skills-data">
+              <div class="skills-names">
+                <img class="skills-icon" src="./assets/img/git.png" alt="" />
+                <span class="skills-name">Git</span>
+              </div>
+
+            </div>
+            <!-- <div class="skills-data">
                 <div class="skills-names">
                   <img class="skills-icon" src="./assets/img/dsa.png" alt="" />
                   <span class="skills-name">Data Structures and Algorithms</span>
@@ -270,28 +267,28 @@
 
               </div> -->
 
-            </div>
           </div>
-      </section>
-
-      <!--===== Projects =====-->
-      <section class="projects section" id="projects">
-        <h2 class="section-title">Projects</h2>
-        <div style="text-align: center" class="way">
-          <p style="display: inline-block; padding: 10px 20px; background-color: #4CAF50; color: white; font-size: 18px; border: none; cursor: pointer; border-radius: 5px; text-decoration: none; margin: 0 auto;" onmouseover="this.style.backgroundColor='#45a049'" onmouseout="this.style.backgroundColor='#4CAF50'">
-            <a href="project.html">Klik here</a>
-          </p>
         </div>
-       
+    </section>
 
-        <div class="project-container">
-          <!-- <div class="project-img"> -->
-            <!-- <img src="assets/img/01.png" alt="cult.fit" /> -->
-            <!-- <p class="project-title">MedPlusMart.com clone</p>
+    <!--===== Projects =====-->
+    <section class="projects section" id="projects">
+      <h2 class="section-title">Projects</h2>
+      <div style="text-align: center" class="way">
+        <p style="display: inline-block; padding: 10px 20px; background-color: #4CAF50; color: white; font-size: 18px; border: none; cursor: pointer; border-radius: 5px; text-decoration: none; margin: 0 auto;" onmouseover="this.style.backgroundColor='#45a049'" onmouseout="this.style.backgroundColor='#4CAF50'">
+          <a href="/project.php">Klik here</a>
+        </p>
+      </div>
+
+
+      <div class="project-container">
+        <!-- <div class="project-img"> -->
+        <!-- <img src="assets/img/01.png" alt="cult.fit" /> -->
+        <!-- <p class="project-title">MedPlusMart.com clone</p>
             <p class="project-subtitle">
               Klik here to see my project
             </p> -->
-            <!-- <div class="project-btns">
+        <!-- <div class="project-btns">
               <a href="#" target="_blank" class="small-btn button">
 
                 <i class="bx bxl-github"></i>
@@ -306,10 +303,10 @@
               <i class="bx bx-blog"></i>
               </a>
             </div> -->
-          <!-- </div> -->
+        <!-- </div> -->
 
 
-           <!-- <div class="project-img"> 
+        <!-- <div class="project-img"> 
             <img src="assets/img/epic.png" alt="Reddit.com" />
             <p class="project-title">Epicgames.com clone</p>
             <p class="project-subtitle">
@@ -336,7 +333,7 @@
             </div>
           </div> -->
 
-          <!-- <div class="project-img">
+        <!-- <div class="project-img">
             <img src="assets/img/youtube.PNG" alt="cult.fit" />
             <p class="project-title">Youtube clone</p>
             <p class="project-subtitle">
@@ -365,7 +362,7 @@
             </div>
            </div>  -->
 
-          <!-- <div class="project-img">
+        <!-- <div class="project-img">
             <img src="assets/img/portfolio.PNG" alt="cult.fit" />
             <p class="project-title">Portfolio</p>
             <p class="project-subtitle">
@@ -394,7 +391,7 @@
             </div>
           </div> -->
 
-          <!-- <div class="project-img">
+        <!-- <div class="project-img">
             <img src="assets/img/swiggy.jpg" alt="Swiggy.com" />
             <p class="project-title">Swiggy clone</p>
             <p class="project-subtitle">
@@ -417,7 +414,7 @@
             </div>
           </div> -->
 
-          <!-- <div class="project-img">
+        <!-- <div class="project-img">
             <img src="assets/img/Tinde-chat.png" alt="Tinde chat" />
             <p class="project-title">
               Tinde Chat
@@ -442,7 +439,7 @@
             </div>
           </div> -->
 
-          <!-- <div class="project-img">
+        <!-- <div class="project-img">
             <img src="assets/img/Redux-shop.PNG" alt="shop app" />
             <p class="project-title">
               Shopping App
@@ -466,8 +463,8 @@
               </a>
             </div>
           </div> -->
-        </div>
-      </section>
+      </div>
+    </section>
   </main>
 
   <!--===== FOOTER + CONTACT=====-->
