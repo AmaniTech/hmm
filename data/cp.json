@@ -1,0 +1,21 @@
+[
+    {
+        "id": 1,
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7p7xDZNood0BXe_5aR6pkFwS0ENdCcsiDTg&s",
+        "class": "Company Profile",
+        "name_project": "Laravel",
+        "from" : "PT. Ride Media Corporindo",
+        "url_project": "/laravel",
+        "description": "lorem100"
+    },
+    {
+        "id": 2,
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7p7xDZNood0BXe_5aR6pkFwS0ENdCcsiDTg&s",
+        "class": "Company Profile",
+        "from" : "PT. Ride Media Corporindo",
+        "name_project": "awdawd",
+        "url_project": "/larawdawavel",
+        "description": "lorem1awdawd00"
+    }
+    
+]

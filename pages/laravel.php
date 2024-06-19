@@ -35,31 +35,36 @@
 
     <div class="container mt-4">
         <div class="row">
+            <?php
+            $json_file = '../data/laravel.json';
+            $json_data = file_get_contents($json_file);
+            $data = json_decode($json_data, true);
+
+            foreach ($data as $d) {
+                echo '
             <div class="col-md-4 mb-3">
                 <div class="card">
-                    <div class="position-absolute px-3 py-2" style="background-color: rgba(0,0,0,0.7)"><a href="" class="text-white text-decoration-none">Laravel</a></div>
-
-
-                    <div class="mx-auto d-block">
-                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7p7xDZNood0BXe_5aR6pkFwS0ENdCcsiDTg&s" alt="{{ $post->category->name }}" class="img-fluid">
+                    <div class="position-absolute px-3 py-2" style="background-color: rgba(0,0,0,0.7)">
+                        <a href="" class="text-white text-decoration-none">' . $d["class"] . '</a>
                     </div>
-
-
+                    <div class="mx-auto d-block">
+                        <img src="' . $d["img"] . '"  class="img-fluid">
+                    </div>
                     <div class="card-body">
-                        <h5 class="card-title">Dasayar Enterprise</h5>
+                        <h5 class="card-title">' . $d["name_project"] . '</h5>
                         <p>
-                            <small class="text-muted">
-                                PT. Ride Media Corporindo
-                            </small>
+                            <small class="text-muted">' . $d["from"] . '</small>
                         </p>
-                        <p class="card-text">...</p>
-                        <a href="/posts/{{ $post->slug }}" class="btn btn-primary">Read more</a>
+                        <p class="card-text">' . $d["description"] . '</p>
+                        <a href="' . $d["url_project"] . '" class="btn btn-primary">Read more</a>
                     </div>
                 </div>
             </div>
+            ';
+            }
+            ?>
         </div>
     </div>
-
 
 
 
