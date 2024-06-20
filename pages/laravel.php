@@ -43,25 +43,30 @@
 
             foreach ($data as $d) {
                 echo '
-            <div class="col-md-4 mb-3">
-                <div class="card">
-                    <div class="position-absolute px-3 py-2" style="background-color: rgba(0,0,0,0.7)">
-                        <a href="" class="text-white text-decoration-none">' . $d["class"] . '</a>
-                    </div>
-                    <div class="mx-auto d-block">
-                        <img src="' . $d["img"] . '"  class="img-fluid">
-                    </div>
-                    <div class="card-body">
-                        <h5 class="card-title">' . $d["name_project"] . '</h5>
-                        <p>
-                            <small class="text-muted">' . $d["from"] . '</small>
-                        </p>
-                        <p class="card-text">' . $d["description"] . '</p>
-                        <a href="' . $d["url_project"] . '" class="btn btn-primary">Read more</a>
+                <div class="col-md-4 mb-3">
+                    <div class="card">
+                        <div class="position-absolute px-3 py-2" style="background-color: rgba(0,0,0,0.7)">
+                            <a href="" class="text-white text-decoration-none">' . $d["class"] . '</a>
+                        </div>
+                        <div class="mx-auto d-block">
+                            <img src="' . $d["img"] . '"  class="img-fluid">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">' . $d["name_project"] . '</h5>
+                            <p>
+                                <small class="text-muted">' . $d["from"] . '</small>
+                            </p>
+                            <p class="card-text">' . $d["description"] . '</p>';
+
+                if (!empty($d["url_project"])) {
+                    echo '<a href="' . $d["url_project"] . '" class="btn btn-primary" target="__blank">Link</a>';
+                }
+
+                echo '
+                        </div>
                     </div>
                 </div>
-            </div>
-            ';
+                ';
             }
             ?>
         </div>
