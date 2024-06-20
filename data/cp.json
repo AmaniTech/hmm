@@ -55,15 +55,6 @@
     },
     {
         "id": 7,
-        "img": "../assets/mitrakibar.png",
-        "class": "Company Profile",
-        "name_project": "Pasir Mas Munir CP",
-        "from" : "PT. Pasir Mas Munir",
-        "url_project": "https://wisata.dasayarenterprise.com/",
-        "description": "Web Company profile untuk instansi PT. Mitra Kibar Indonesia"
-    },
-    {
-        "id": 8,
         "img": "../assets/pasirmas.png",
         "class": "Company Profile",
         "name_project": "Pasir Mas Munir CP",
