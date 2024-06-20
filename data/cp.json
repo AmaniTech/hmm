@@ -1,21 +1,74 @@
 [
     {
         "id": 1,
-        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7p7xDZNood0BXe_5aR6pkFwS0ENdCcsiDTg&s",
+        "img": "../assets/dasayarenterprise.png",
         "class": "Company Profile",
-        "name_project": "Laravel",
+        "name_project": "Dasayar Enterprise",
         "from" : "PT. Ride Media Corporindo",
-        "url_project": "/laravel",
-        "description": "lorem100"
+        "url_project": "https://dasayarenterprise.com/",
+        "description": "Web Company profile untuk instansi Dasayar Enterprise"
     },
     {
         "id": 2,
-        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7p7xDZNood0BXe_5aR6pkFwS0ENdCcsiDTg&s",
+        "img": "../assets/ride.png",
         "class": "Company Profile",
+        "name_project": "Ride CP",
         "from" : "PT. Ride Media Corporindo",
-        "name_project": "awdawd",
-        "url_project": "/larawdawavel",
-        "description": "lorem1awdawd00"
+        "url_project": "https://ride.dasayarenterprise.com/",
+        "description": "Web Company profile untuk instansi PT. Ride Media Corporindo"
+    },
+    {
+        "id": 3,
+        "img": "../assets/ridemedia.png",
+        "class": "Company Profile",
+        "name_project": "Ride Media",
+        "from" : "PT. Ride Media Corporindo",
+        "url_project": "https://ridemedia.dasayarenterprise.com/",
+        "description": "Web Company profile untuk instansi PT. Ride Media Corporindo di bidang jasa fotografi dan video editing"
+    },
+    {
+        "id": 4,
+        "img": "../assets/rideservice.png",
+        "class": "Company Profile",
+        "name_project": "Ride Servis",
+        "from" : "PT. Ride Media Corporindo",
+        "url_project": "https://rideservis.dasayarenterprise.com/",
+        "description": "Web Company profile untuk instansi PT. Ride Media Corporindo di bidang Service laptop dan PC"
+    },
+    {
+        "id": 5,
+        "img": "../assets/rideweb.png",
+        "class": "Company Profile",
+        "name_project": "Ride Web",
+        "from" : "PT. Ride Media Corporindo",
+        "url_project": "https://rideweb.dasayarenterprise.com/",
+        "description": "Web Company profile untuk instansi PT. Ride Media Corporindo di bidang jasa pembuatan website"
+    },
+    {
+        "id": 6,
+        "img": "../assets/mitrakibar.png",
+        "class": "Company Profile",
+        "name_project": "Mitra Kibar CP",
+        "from" : "PT. Mitra KIbar Indonesia",
+        "url_project": "https://wisata.dasayarenterprise.com/",
+        "description": "Web Company profile untuk instansi PT. Mitra Kibar Indonesia"
+    },
+    {
+        "id": 7,
+        "img": "../assets/mitrakibar.png",
+        "class": "Company Profile",
+        "name_project": "Pasir Mas Munir CP",
+        "from" : "PT. Pasir Mas Munir",
+        "url_project": "https://wisata.dasayarenterprise.com/",
+        "description": "Web Company profile untuk instansi PT. Mitra Kibar Indonesia"
+    },
+    {
+        "id": 8,
+        "img": "../assets/pasirmas.png",
+        "class": "Company Profile",
+        "name_project": "Pasir Mas Munir CP",
+        "from" : "PT. Pasir Mas Munir",
+        "url_project": "https://pasirmasmunir.com/",
+        "description": "Web Company profile untuk instansi PT. Pasir Mas Munir"
     }
-    
 ]

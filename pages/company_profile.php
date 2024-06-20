@@ -62,7 +62,7 @@
                             <small class="text-muted">' . $d["from"] . '</small>
                         </p>
                         <p class="card-text">' . $d["description"] . '</p>
-                        <a href="' . $d["url_project"] . '" class="btn btn-primary">Read more</a>
+                        <a href="' . $d["url_project"] . '" class="btn btn-primary" target="__blank">Link</a>
                     </div>
                 </div>
             </div>
