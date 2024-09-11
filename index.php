@@ -10,7 +10,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
   <!-- =====BOX ICONS===== -->
-  <link href="https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css" rel="stylesheet" />
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
   <!--===== SCROLL REVEAL =====-->
   <script src="https://unpkg.com/scrollreveal"></script>
   <title>Qomarus Zamani</title>
@@ -167,38 +167,31 @@
             <div>
               <!-- <span class="skills-percentage">70%</span> -->
             </div>
-
           </div>
-          <!-- <div class="skills-data">
-              <div class="skills-names">
-                <i class="bx bxl-react skills-icon"></i>
-                <span class="skills-name">React</span>
-              </div>
-              <div class="skills-bar skills-react"></div>
-              <div>
-                <span class="skills-percentage">50%</span>
-              </div>
+          <div class="skills-data">
+            <div class="skills-names">
+              <i class="bx bxl-jquery skills-icon"></i>
+              <span class="skills-name">JQuery</span>
             </div>
-            <div class="skills-data">
-              <div class="skills-names">
-                <i class="bx bxl-redux skills-icon"></i>
-                <span class="skills-name">Redux</span>
-              </div>
-              <div class="skills-bar skills-redux"></div> 
-              <div class="skills-bar skills-css"></div> 
-              <div>
-                <span class="skills-percentage">50%</span>
-              </div>
-
+            <!-- <div class="skills-bar skills-css"></div>  -->
+            <div>
+              <!-- <span class="skills-percentage">70%</span> -->
             </div>
+          </div>
 
-            <div class="skills-data">
-              <div class="skills-names">
-                <img class="skills-icon" src="./assets/img/typescript.png" alt="" />
-                <span class="skills-name">TypeScript</span>
-              </div>
-            </div> -->
+          <h2 class="skills-subtitle">Android Skills</h2>
+          <div class="skills-data">
+            <div class="skills-names">
+              <i class="bx bxl-flutter skills-icon"></i>
+              <span class="skills-name">Flutter</span>
+            </div>
+            <!-- <div class="skills-bar skills-html"></div> 
+             <div>
+                <span class="skills-percentage">75%</span>
+              </div>  -->
+          </div>
         </div>
+    
         <div>
           <h2 class="skills-subtitle">Back-end Skills</h2>
           <div class="skills-data">
@@ -268,7 +261,7 @@
               </div> -->
 
           </div>
-        </div>
+      </div>
     </section>
 
     <!--===== Projects =====-->
@@ -276,7 +269,7 @@
       <h2 class="section-title">Projects</h2>
       <div style="text-align: center" class="way">
         <p style="display: inline-block; padding: 10px 20px; background-color: #4CAF50; color: white; font-size: 18px; border: none; cursor: pointer; border-radius: 5px; text-decoration: none; margin: 0 auto;" onmouseover="this.style.backgroundColor='#45a049'" onmouseout="this.style.backgroundColor='#4CAF50'">
-          <a href="/project.php">Klik here</a>
+          <a href="project.php">Klik here</a>
         </p>
       </div>
 

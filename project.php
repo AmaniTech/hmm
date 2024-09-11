@@ -22,12 +22,17 @@
         }
 
         .btn-company-profile {
-            background-color: #007bff;
+            background-color: #47c98f;
             color: #fff;
         }
 
         .btn-laravel {
             background-color: #dc3545;
+            color: #fff;
+        }
+
+        .btn-fluuter {
+            background-color: #167df2;
             color: #fff;
         }
 
@@ -42,9 +47,10 @@
     <div class="container mt-5">
         <h1 class="text-center">My Project</h1>
         <div class="mt-4">
-            <a href="/pages/company_profile.php" class="btn btn-large btn-company-profile">Company Profile</a>
-            <a href="/pages/laravel.php" class="btn btn-large btn-laravel">Laravel</a>
-            <a href="/index.php" class="btn btn-large btn-back">Back</a>
+            <a href="./pages/company_profile.php" class="btn btn-large btn-company-profile">Company Profile</a>
+            <a href="./pages/laravel.php" class="btn btn-large btn-laravel">Laravel</a>
+            <a href="./pages/flutter.php" class="btn btn-large btn-fluuter">Flutter</a>
+            <a href="index.php" class="btn btn-large btn-back">Back</a>
         </div>
     </div>
 
