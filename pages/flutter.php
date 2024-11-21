@@ -40,7 +40,7 @@
     <div class="container mt-4">
         <div class="row">
             <?php
-            $json_file = '../data/laravel.json';
+            $json_file = '../data/flutter.json';
             $json_data = file_get_contents($json_file);
             $data = json_decode($json_data, true);
 
