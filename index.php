@@ -206,6 +206,16 @@
           </div>
           <div class="skills-data">
             <div class="skills-names">
+              <img class="skills-icon" src="./assets/img/django.png" alt="" />
+              <span class="skills-name">Django</span>
+            </div>
+            <!-- <div class="skills-bar skills-css"></div>  -->
+            <div>
+              <!-- <span class="skills-percentage">70%</span> -->
+            </div>
+          </div>
+          <div class="skills-data">
+            <div class="skills-names">
               <img class="skills-icon" src="./assets/img/ci.png" alt="" />
               <span class="skills-name">Codeigniter</span>
             </div>
