@@ -1,0 +1,11 @@
+[
+  {
+    "id": 1,
+    "img": "../assets/erplestaridjango.png",
+    "class": "Sistem Informasi",
+    "name_project": "ERP LMS Monitoring",
+    "from": "PT. Lestari Mulia Sentosa",
+    "url_project": "",
+    "description": "Apps Khusus Programmer Untuk Monitoring dan CRUD secara Dinamin"
+  }
+]

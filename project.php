@@ -50,6 +50,7 @@
             <a href="./pages/company_profile.php" class="btn btn-large btn-company-profile">Company Profile</a>
             <a href="./pages/laravel.php" class="btn btn-large btn-laravel">Laravel</a>
             <a href="./pages/flutter.php" class="btn btn-large btn-fluuter">Flutter</a>
+            <a href="./pages/django.php" class="btn btn-large btn-warning">Django</a>
             <a href="index.php" class="btn btn-large btn-back">Back</a>
         </div>
     </div>
